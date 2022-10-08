@@ -1,0 +1,23 @@
+.jumbotron {
+    height: auto;
+    font-family: "Georgia", Times, serif;
+    background-color: #e2edff;
+}
+
+.navbar-nav {
+    font-weight: bolder;
+    font-size: medium;
+}
+
+/* Desktop/laptop version */
+@media (min-width: 992px) {
+    .nav-link:hover::after {
+        content: "";
+        display: block;
+        border-bottom: 3px solid salmon;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-top: -8px;
+    }
+}
