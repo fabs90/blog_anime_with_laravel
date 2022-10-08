@@ -1,12 +1,23 @@
 .jumbotron {
     height: auto;
-    font-family: "Georgia", Times, serif;
+    font-family: "Poppins";
     background-color: #e2edff;
 }
 
 .navbar-nav {
     font-weight: bolder;
     font-size: medium;
+    font-family: "Poppins";
+}
+
+.profile {
+    border-radius: 50%;
+    width: 15rem;
+    margin-left: 4rem;
+}
+
+.biodata {
+    font-family: "Poppins";
 }
 
 /* Desktop/laptop version */
@@ -14,10 +25,17 @@
     .nav-link:hover::after {
         content: "";
         display: block;
-        border-bottom: 3px solid salmon;
+        border-bottom: 3px solid brown;
         width: 50%;
         margin: auto;
         padding-bottom: 5px;
         margin-top: -8px;
+    }
+
+    .profile {
+        border-radius: 50%;
+        width: 20rem;
+        margin-left: 25rem;
+        border: 1px solid;
     }
 }

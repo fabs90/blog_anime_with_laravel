@@ -4,7 +4,7 @@
 @section('konten')
 {{-- Jumbotron image --}}
 <Section class="jumbotron">
-    <div class="container pt-5 pb-3">
+    <div class="container pt-5 pb-1">
         <div class="row">
             <div class="col-lg-4 col-sm-5">
                 <h2>Selamat Datang Di Blog TAAKA</h2>
@@ -25,9 +25,17 @@
 <div class="container">
     <div class="row">
             <div class="col-lg-12 col-sm-12 text-center">
-                    <h2>Konnichiwa minna san</h2>
-                    <h3 class="pb-4">Ogenki Desu Ka??</h3>
+                    <h1 class="biodata"><b>About Author</b></h1>
             </div>
+            <div class="col-lg-12 col-sm-12">
+                <img src="{{url('img/slebew_fabian.jpg')}}" class="img-fluid mt-3 profile">
+            </div>
+            <section class="biodata">
+                <div class="col-lg-12 col-sm-12 text-center ">
+                    <h2 class="my-3">Fabian Juliansyah Cahyadi</h2>
+                    <p>Mahasiswa tingkat 2 di universitas Gunadarma jurusan sistem informasi. Technology, programming, and japanese culture enthusiast. Dengan berbekal ilmu dari internet maupun dosen, ingin membagikan informasi-informasi menarik seputar hal-hal yang saya sukai dan tekuni. Hope you guys like it, よろしくお願いします.</p>
+                </div>
+        </section>
 </div>   
 
 
