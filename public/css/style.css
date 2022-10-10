@@ -38,4 +38,9 @@
         margin-left: 25rem;
         border: 1px solid;
     }
+
+    .banner_img {
+        margin-left: 200px;
+        width: 40rem;
+    }
 }

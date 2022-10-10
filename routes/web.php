@@ -18,4 +18,6 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', 'App\Http\Controllers\blog_Controller@index');
+Route::get('/blog', 'App\Http\Controllers\blog_Controller@blog');
 Route::get('/index', 'App\Http\Controllers\blog_Controller@index');
+Route::get('/kelas', 'App\Http\Controllers\kelas_controller@index');

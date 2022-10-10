@@ -6,12 +6,11 @@
 <Section class="jumbotron">
     <div class="container pt-5 pb-3">
         <div class="row">
-            <div class="col-lg-4 col-sm-5">
-                <h2>Selamat Datang Di Blog TAAKA</h2>
-                <p style="color:gray ;">Blog yang suka bahas hal-hal jejepangan!🎌</p>
+            <div class="col-lg-12 col-sm-5 text-center pb-2">
+                <h2>Inilah 10 Anime Series Peringkat 1-10 Dunia Yang Wajib Kamu Tonton!</h2>
             </div>
-            <div class="col-lg-8 col-sm-7">
-                <img src="{{url('/img/shoukaku_AL.jpg')}}" class="img-fluid">
+            <div class="col-lg-12 col-sm-7 ">
+                <img src="{{url('/img/fullmetal_alchemist.jpg')}}" class="img-fluid banner_img">
             </div>
         </div>
     </div>
@@ -23,17 +22,15 @@
 
 
 <div class="container">
-    <div class="row">
-            <div class="col-lg-7 col-sm-7 ps-5">
-                    <h4 class="text-left pb-3">Anime-anime yang selalu menempati peringkat atas dunia, apa benar ada? Mari kita ulas!</h4>
-
-                    <p>Halo teman-teman Taaka... Apa kabar? Semoga baik-baik terus yaa minna-san. Pada section kali ini mimin mau bahas tentang beberapa anime yang selalu menempati peringkat atas (1-10) di dunia lohh! Anime-anime ini bahkan tidak tergeser walau tahun dan season terus berganti, keren banget yaa minna... Mimin yakin studio-studio pembuat anime ini mereka sangat bekerja keras pagi dan malam dalam menggarap anime tersebut.</p>
+    <div class="row text-justify">
+            <div class="col-lg-12 col-sm-7">
+                    <p>Ada banyak sekali anime-anime bagus, tapi belum tentu jika menurut kita bagus orang lain akan menilai bagus juga. Sehingga rating yang diberikan oleh banyak penonton pun akan sangat berpengaruh pada popularitas anime tersebut. Namun, untuk list anime-anime dibawah ini rating dari anime mereka sangat tinggi lohh, bagi mimin anime yang punya rating diatas 7 mimin anggap punya story atau plot cerita yang bagus yaa itu opini mimin.</p>
                     
-                    <p>Langsung aja masuk ke list nya, berikut beberapa anime yang menempati posisi 1-10 Top Anime in the world versi website MAL(My Anime List)</p>
+                    <p>Langsung aja masuk ke list nya, berikut beberapa anime yang menempati posisi 1-10 Top Anime in the world versi website MAL (My Anime List)</p>
             </div>
             {{-- List Anime --}}
             @foreach ($top_anime as $anime)
-            <div class="col-lg-7 col-sm-7 ps-5">
+            <div class="col-lg-12 col-sm-7">
                 <h3>{{ $loop->iteration }}. {{$anime->title}}</h3>
                 <h5>Score : {{ $anime->score }}</h5>
                 <h6>Type : </h6>

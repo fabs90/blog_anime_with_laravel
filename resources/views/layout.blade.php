@@ -31,7 +31,7 @@
             <a class="nav-link active text-white" href="#">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-white" href="#">Blog</a>
+            <a class="nav-link active text-white" href="<?= url('/blog'); ?>">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active text-white" href="https://github.com/fabs90"><i class="bi bi-github"></i></a>
