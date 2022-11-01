@@ -30,9 +30,10 @@
             </div>
             {{-- List Anime --}}
             @foreach ($top_anime as $anime)
-            <div class="col-lg-12 col-sm-7">
+            <div class="col-lg-12 col-sm-7 pb-3">
                 <h3>{{ $loop->iteration }}. {{$anime->title}}</h3>
-                <h5>Score : {{ $anime->score }}</h5>
+                <h3 class='img-fluid'> <img src="{{ url('img/' . $anime->image)}}" style="width: 300px "></h3>
+                <h5>Score : {{ ($anime->score) }}</h5>
                 <h6>Type : </h6>
                 <p>{{ $anime->description }}</p>
             </div>

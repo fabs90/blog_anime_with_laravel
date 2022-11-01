@@ -2,7 +2,7 @@
 @section('title', 'Kelas')
 
 @section('konten')
-<div class="container">
+<div class="container py-5">
     <div class="row text-center">
             <h1 class="pt-5">List Kelas</h1>
             <h3 class="mb-2">Mencoba Database Seeding</h3>
