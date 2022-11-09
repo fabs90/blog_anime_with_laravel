@@ -20,6 +20,10 @@
     font-family: "Poppins";
 }
 
+.footer {
+    background-color: #2f1793;
+}
+
 /* Desktop/laptop version */
 @media (min-width: 992px) {
     .nav-link:hover::after {

@@ -50,73 +50,58 @@
 
 
 
-{{-- Footer --}}
-<!-- Footer -->
-<footer class="text-center text-lg-start bg-dark text-muted mt-5">
-  <!-- Section: Social media -->
-  <section class="footer-topBar d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
-    </div>
-    <!-- Left -->
-
-    <!-- Right -->
-    <div>
-      <a href="" class="me-5 link-secondary">
-        <i class="bi bi-facebook"></i>
-      </a>
-      <a href="" class="me-5 link-secondary">
-        <i class="bi bi-instagram"></i>
-      </a>
-      <a href="" class="me-5 link-secondary">
-        <i class="bi bi-github"></i>
-      </a>
-    </div>
-    <!-- Right -->
-  </section>
-  <!-- Section: Social media -->
-
-  <!-- Section: Links  -->
-  <section class="footer-BottomBar">
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
+<section id="footer" class="footer">
+  <footer class="text-white text-center pb-3" >
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
       <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mb-4 text-center">
-          <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3 text-secondary"></i>Web Taaka
-          </h6>
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <h5 class="text-uppercase">Terhubung Dengan Kami :</h5>
+          <!-- Instagram -->
+          <a class="btn btn-floating m-1 btn-outline-light" href="https://www.instagram.com/fabianjc.jpeg/" role="button"
+          ><i class="bi bi-instagram"></i
+        ></a>
+            <!-- Github -->
+        <a class="btn btn-outline-light" href="https://github.com/fabs90" role="button"
+          ><i class="bi bi-github"></i></a>
+          <!-- Google -->
+        <a class="btn btn-outline-light" href="https://m.facebook.com/fabian.juliansyah" role="button"
+          ><i class="bi bi-facebook"></i></a> 
+        </div>
+        <!--Grid column-->
+        
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <h5 class="text-uppercase">About Us</h5>
+  
           <p>
             Haii, terimakasih telah membaca web ini sampai akhir. Jangan lupa untuk terus mendukung kami dengan cara follow sosmed kami yaa... Arigatou🎎
           </p>
         </div>
-        <!-- Grid column -->
+        <!--Grid column-->
 
-        <!-- Grid column -->
-        <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mb-md-0 mb-4 text-center">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="bi bi-house-door"></i> Jalan Cipta Guna Blok C no.5</p>
-          <p><i class="bi bi-telephone"></i> 0858-9949-6182 </p>
-        <!-- Grid column -->
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+          <h5 class="text-uppercase">Contact</h5>
+        <!-- Links -->
+          <p>🏠 New York, NY 10012, US</p>
+          <p>📧info@example.com</p>
+          <p>📞 +62 9021 71293</p>
+        </div>
+        <!--Grid column-->
       </div>
-      <!-- Grid row -->
+      <!--Grid row-->
     </div>
-  </section>
-  <!-- Section: Links  -->
+    <!-- Grid container -->
 
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-    © 2022 Copyright:
-    <a class="text-reset fw-bold" href="#">TAAKA.com</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
-
-{{-- Akhir footer --}}
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="<?= url('/blog'); ?>">TAAKA</a>
+    </div>
+    <!-- Copyright -->
 
 
 
